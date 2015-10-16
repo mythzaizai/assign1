@@ -13,8 +13,8 @@ int x,y,z,a,b,c;
 void setup () {
   b=1;
   c=-639;
-  y = floor(random(590));
-  z = floor(random(430));
+  y = floor(random(50~590));
+  z = floor(random(50~430));
   a = floor(random(200));
   
   size(640,480) ;
